@@ -8,7 +8,7 @@ This is a sample react weather app created using Openweather API
 
 https://arpitsha25.github.io/weather_app/
 
-![grab-landing-page](https://arpitsha25.github.io/weather_app/src/components/sss.jpg)
+![Screenshot](screenshot.jpg)
 
 
 ## Instructions
