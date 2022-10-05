@@ -1,0 +1,57 @@
+.container {
+  /* background-color: rgb(155, 182, 206); */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.content {
+  /* background-color: #ff0000; */
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.8px);
+  -webkit-backdrop-filter: blur(5.8px);
+}
+
+.title,
+.title2 {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 150px;
+  background: none;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  margin-left: 1rem;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  cursor: pointer;
+}
